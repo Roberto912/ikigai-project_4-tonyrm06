@@ -58,7 +58,7 @@
   width: 25%;
 }
 
-.grid__col--6.theme__colors {
+.grid__col--6 {
   width: 49.5%;
 }
 
@@ -82,7 +82,7 @@
 .grid__col--8,
 .grid__col--7,
 .grid__col--12,
-.grid__col--6,
+.grid__col--6.theme__colors,
 .grid__col--4,
 .grid__col--5 {
   text-align: center;
@@ -121,6 +121,20 @@
 
 .grid__col--7.theme__colors {
   background-color: #FF8282;
+}
+
+.img--frame {
+  padding: 12.5px;
+  border: solid 0.5px black;
+  display: block;
+  margin: auto;
+}
+
+.img--avatar {
+  padding: 12.5px;
+  border: 0.5px solid white;
+  display: block;
+  margin: auto;
 }
 
 .nav__item {
