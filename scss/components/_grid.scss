@@ -6,8 +6,8 @@
     clear: both;
     display: flex;
     flex-direction: row;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%
+    margin-top: 4%;
+    margin-bottom: 4%
 }
 .grid__col--12{
     width: 100%;
@@ -51,14 +51,6 @@
 .grid__col--8{
     width: 66.66666666666667%;
 }
-
-
-
-
-    
-
-
-
     .grid__col--9{
     width: 75%;
     align-items: center;
@@ -72,5 +64,27 @@
 
     .grid__col--3{
      width:    30%
+    }
+    //color Grid System
+.grid__col--12.theme__colors{
+    background-color: $color-12
+    }
+.grid__col--6.theme__colors{
+    background-color: $color-6
+    }
+.grid__col--5.theme__colors{
+    background-color: $color-5
+    }
+.grid__col--3.theme__colors{
+    background-color: $color-3
+    }
+.grid__col--4.theme__colors{
+    background-color: $color-4
+    }
+.grid__col--8.theme__colors{
+    background-color: $color-8
+    }
+.grid__col--7.theme__colors{
+    background-color: $color-7;
     }
 }
