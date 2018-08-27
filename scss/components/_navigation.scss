@@ -1,5 +1,18 @@
+@media (min-width: 1400px){
 .nav__item{
-    float: left;
-    margin: 5px;
+    display: inline;
+    margin: 1.8%;
     list-style:none;
+    padding: 2%;
+    a{
+       color: rgb(100, 100, 100)
+    }
+}
+.nav__item:hover{
+ background-color: $color-12;
+ border-radius: 5px;
+}
+.nav__item:hover a{
+    color: white;
+}
 }

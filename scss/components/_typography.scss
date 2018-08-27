@@ -1,3 +1,4 @@
+@media (min-width: 1400px){
 .container{
     width: 80%;
     padding-bottom: 5%;
@@ -17,7 +18,8 @@
     border-left: 8px solid $color-12;
     border-radius: 5px;
     padding-left: 20px;
-    font-size: 1.7em;
+    font-size: 1.6em;
+    margin-left: 8%
 }
 .link{
     color: $color-Default
@@ -31,10 +33,9 @@
 .headline--secondary{
     font-weight: normal 
 }
-.blockquote{
-    margin-left: 8%
-}
+
 
 .card .headline--secondary{
     padding-left: 6%
+}
 }
