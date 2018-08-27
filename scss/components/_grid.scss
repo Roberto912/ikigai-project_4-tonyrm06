@@ -84,19 +84,14 @@
 
 
 
-@media (min-width: 1400px){
+@media (min-width: 1024px){
 .grid__row{
-    width: 100%;
-    height: 10%;
-    clear: both;
     display: flex;
     flex-direction: row;
     margin-top: 4%;
     margin-bottom: 4%
 }
-.grid__col--12{
-    width: 100%;
-}
+
 .grid__col--3.theme__colors{
     width: 25%;
 }
@@ -124,10 +119,8 @@
 .grid__col--6.theme__colors,
 .grid__col--4.theme__colors,
 .grid__col--5{
-    text-align: center;
     padding: 0.5% 0 0.5% 0;
-    border-radius: 4px;
-    margin: 0 4.2px;
+    margin: 0 6px;
 }
 .centered{
   margin: 0 auto;
@@ -142,34 +135,22 @@
     display: flex;
     justify-content: center;
           nav{
-            width: 65%;
+            width: 80%;
             margin: 0 auto
           }
     }
 
     .grid__col--3{
-     width:    30%
+     width:30%
     }
-    //color Grid System
-.grid__col--12.theme__colors{
-    background-color: $color-12
-    }
-.grid__col--6.theme__colors{
-    background-color: $color-6
-    }
-.grid__col--5.theme__colors{
-    background-color: $color-5
-    }
-.grid__col--3.theme__colors{
-    background-color: $color-3
-    }
-.grid__col--4.theme__colors{
-    background-color: $color-4
-    }
-.grid__col--8.theme__colors{
-    background-color: $color-8
-    }
-.grid__col--7.theme__colors{
-    background-color: $color-7;
-    }
+
+}
+
+@media (min-width: 1400px){
+    .grid__col--9{
+              nav{
+                width: 65%;
+              }
+        }
+    
 }

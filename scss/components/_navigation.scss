@@ -13,15 +13,10 @@
 	color: aliceblue;
 	}
 }
-// .nav {
-// 	opacity: 2;
-// 	transition-property: opacity, background, box-shadow;
-// 	transition-duration: .5s;
-// 	transition-delay: .2s, .3s;
-// }
+
 
 .nav__item:hover {
-	background-color: #00bcd4;
+	background-color: $color-12;
 	box-shadow: 0 0 0 3px #cfd8dc;
 }
 
@@ -30,12 +25,13 @@
 
 
 
-@media (min-width: 1400px){
+@media (min-width: 1024px){
 .nav__item{
     display: inline;
     margin: 1.8%;
     list-style:none;
-    padding: 2%;
+	padding: 2%;
+	transition-property: none;
     a{
        color: rgb(100, 100, 100);
        text-decoration: none
@@ -44,6 +40,7 @@
 .nav__item:hover{
  background-color: $color-12;
  border-radius: 5px;
+ box-shadow: 0
 }
 .nav__item:hover a{
     color: white;
