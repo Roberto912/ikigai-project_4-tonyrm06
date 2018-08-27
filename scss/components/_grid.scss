@@ -20,7 +20,7 @@
 .grid__col--4{
     width: 33.33333333333333%;
 }
-.grid__col--8{
+.grid__col--8.theme__colors{
     width: 66.66666666666667%
 }
 .grid__col--7.theme__colors{
@@ -33,7 +33,7 @@
 .grid__col--3,
 .grid__col--8.theme__colors,
 .grid__col--7,
-.grid__col--12,
+.grid__col--12.theme__colors,
 .grid__col--6.theme__colors,
 .grid__col--4.theme__colors,
 .grid__col--5{
@@ -46,7 +46,9 @@
   margin: 0 auto;
 }
 
-
+.grid__col--8{
+    width: 66.66666666666667%;
+}
 
 
 
