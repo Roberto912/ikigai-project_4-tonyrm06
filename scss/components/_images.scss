@@ -16,7 +16,7 @@ width: 100%;
     border:  0.5px  solid white;
     display:block;
     margin:auto;
-    
+    width: 40%;
 }
 
 @media (min-width: 1024px){
@@ -26,6 +26,9 @@ width: auto;
 }
 .img--logo{
     padding-bottom: 0;
+}
+.img--avatar{
+    width: auto;
 }
 
 }

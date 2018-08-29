@@ -1,12 +1,14 @@
-
+p{
+    line-height:20pt
+}
 @media (min-width: 1024px){
 p{
-    padding-left: 6%;
+    padding-left: 5%;
     line-height:20pt;
     padding-right: 8%
 }
 .grid__row .grid__col--12 .card p{
-    padding-left: 4%;
+    padding-left: 3%;
 }
 *{
     font-family: Helvetica ;

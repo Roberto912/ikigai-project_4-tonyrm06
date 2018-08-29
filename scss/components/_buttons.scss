@@ -25,9 +25,10 @@
     text-transform: uppercase;
     width: 100%;
     margin: 8% 0 0 0;
-    padding: 4% 6% 4% 4%;
+    padding: 3% 6% 3% 3%;
     
 }
+
 .btn--default.theme__colors,
 .btn--warning,
 .btn--info,
@@ -39,12 +40,22 @@
     width: 100%;
     color: white;
     margin-top: 6%;
-    padding: 4.5% 0 0.5% 0;
+    padding: 4% 5% 4% 4%;
 }
 
 
-@media (min-width: 1024px){
 
+@media (min-width: 1024px){
+    .btn--default.theme__colors,
+    .btn--warning,
+    .btn--info,
+    .btn--error,
+    .btn--success{
+        border: 0;
+        border-radius: 4px;
+        text-transform: uppercase;
+        color: white;
+    }
 
 .btn--default.theme__colors,
 .btn--warning,
@@ -54,6 +65,18 @@
     padding: 1% 0 1% 0;
     margin: 0 2.2%;
     width: 15%;
+    
+}
+
+
+.btn--default.theme__colors[type="submit"]{
+    
+    border: 0;
+    border-radius: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 8% 0 0 0;
+    padding: 4% 6% 4% 4%;
     
 }
 }
